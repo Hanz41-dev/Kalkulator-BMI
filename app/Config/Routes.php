@@ -34,7 +34,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/male', 'Page::openMaleBMI');
-$routes->get('female', 'Page::openFemaleBMI');
+$routes->get('/female', 'Page::openFemaleBMI');
 
 
 /*
