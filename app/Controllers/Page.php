@@ -2,14 +2,15 @@
 
 namespace App\Controllers;
 
-class Page extends BaseController{
+class Page extends BaseController
+{
 
         public function openMaleBMI()
         {
-                echo view('maleBMI');
+                echo "About page";
         }
         public function openFemaleBMI()
         {
-                echo view('femaleBMI');
+                return view('femaleBMI');
         }
 }
