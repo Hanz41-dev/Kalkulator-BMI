@@ -7,7 +7,7 @@ class Page extends BaseController
 
         public function openMaleBMI()
         {
-                echo "About page";
+                return view('maleBMI');
         }
         public function openFemaleBMI()
         {
